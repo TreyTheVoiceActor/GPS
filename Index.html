@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Williams GPS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Williams GPS</h1>
+        <button id="getLocationButton">Get Location</button>
+        <div id="locationOutput">
+            <p id="latitude">Latitude: N/A</p>
+            <p id="longitude">Longitude: N/A</p>
+            <p id="accuracy">Accuracy: N/A</p>
+        </div>
+        <label for="bgColorSelect">Choose background color:</label>
+        <select id="bgColorSelect">
+            <option value="white">White</option>
+            <option value="darkred">Dark Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="purple">Purple</option>
+            <option value="pink">Pink</option>
+            <option value="grey">Grey</option>
+            <option value="yellow">Yellow</option>
+        </select>
+        <div id="map"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
